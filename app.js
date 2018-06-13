@@ -31,7 +31,7 @@ function showMessage(message, classname) {
 
 function searchReddit(term, limit, sort) {
   fetch(
-    `http://www.reddit.com/search.json?q=${term}&sort=${sort}&limit=${limit}`
+    `https://www.reddit.com/search.json?q=${term}&sort=${sort}&limit=${limit}`
   )
     .then(res => res.json())
     .then(data => data.data.children.map(data => data.data))
