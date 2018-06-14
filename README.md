@@ -1,2 +1,2 @@
-# booklister
-Just simple list app with Localstorage
+# Reddit
+Just simple list app with Reddit API
